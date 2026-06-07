@@ -5,96 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping tags</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: rgba(91, 146, 37, 0.603);
-            margin: 0px;
-        }
-        header {
-            
-            background-color: white;
-            padding: 10px;
-            margin: 10px;
-        }
-        main {
-            background-color: white;
-            padding: 10px;
-            margin: 10px;
-            border-radius: 10px 0px;
-            box-shadow: 4px 4px 9px 0px black;
-        }
-        footer {
-            background-color: rgba(0, 0, 0, 0.363);
-            color: white;
-            padding: 1px;
-            margin: 0px;
-            text-align: center;
-        }
-        footer > p {
-            margin: 0px;
-        }
-        article {
-            background-color: lightgray;
-        }
-        article > aside {
-            background-color: rgb(199, 179, 179);
-        }
-        nav {
-            background-color: gray;
-            padding: 3px;
-            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.349);
-            
-        }
-        nav > a {
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-            margin-right: 30px;
-        }
-        nav > a:hover {
-            text-decoration: underline;
-        }
-        div#bola {
-            height: 100px;
-            width: 100px;
-            background-color: white;
-            margin: 10px;
-            border-radius: 50%;
-        }
+       body {
+        background-color: rgba(36, 34, 34, 0.699);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        text-align: justify;
+       }
+       header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+       }
+       nav {
+        background-color: rgba(48, 155, 155, 0.61);
+        padding: 4px;
+        box-shadow: 1px 1px 1px rgba(44, 44, 44, 0.37);
+
+       }
+       nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+    
+       }
+       nav > a:hover {
+        color: chartreuse;
+        text-decoration: underline;
+       }
+      
+       header > h1 {
+       
+        text-align: center;
+        color: blue;
+    
+        
+       }
+       main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+        
+       }
+       
+       footer {
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        padding: 4px;
+       }
+
+       footer > p {
+        margin: 0px;
+       }
+
+       article {
+        background-color: gray;
+       }
+       article > h2 {
+        text-align: center;
+        color: blue;
+
+       }
+       
+       aside > p {
+        background-color: darkred;
+        color: black
+       }
+       .bola {
+        height: 100px;
+        width: 100px;
+        background-color: rgba(0, 255, 242, 0.733);
+        border-radius: 50%;
+        margin: 20px;
+        
+
+       }
+
+       
     </style>
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
         <nav>
-            <a href="#">links</a>
-            <a href="#">links</a>
-            <a href="#">links</a>
-            <a href="#">links</a>
-            <a href="#">links</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
         </nav>
+
     </header>
     <main>
-        <section id="assuntos">
+        <section class="assuntos">
+
         </section>
-        <section id="noticias">
+        <section class="noticias">
             <article>
                 <h2>Notícia sobre o Brasil</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam est quaerat atque deleniti omnis animi veniam in quibusdam sed hic dolorum iure natus velit, libero reprehenderit soluta tempora, neque inventore!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta accusamus suscipit quam unde voluptate quibusdam tenetur perferendis facilis odit tempora itaque quasi sapiente, dignissimos incidunt cupiditate reprehenderit officia! Voluptas, dolore?</p>
                 <aside>
-                    <p>Artigo escrito por Lucas</p>
+                    <p>Artigo escrito por João Lucas</p>
+
                 </aside>
+            
             </article>
             <article>
 
             </article>
 
         </section>
+
     </main>
     <footer>
-        <p>Desenvolvido pelo curso em vídeo</p>
-
+        <p>Desenvolvido por João Lucas</p>
     </footer>
-    <div id="bola"></div>
+    <div class="bola"></div>
 </body>
 </html>

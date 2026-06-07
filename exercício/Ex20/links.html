@@ -9,30 +9,32 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         a {
-            color: rgb(224, 22, 22);
+            color: darkred;
             text-decoration: none;
-            font-weight: bold;
+        } 
+        a:visited {
+            color: red;
         }
+     
         a:hover {
+            color: black;
             text-decoration: underline;
-            color: rgba(166, 255, 0, 0.705);
-
         }
         a:active {
-            color: rgb(217, 255, 0);
+            color: blue;
+        }
+        .especial {
+            background-color: black;
         }
         .especial::before {
             content: ' → ';
         }
         .especial::after {
             content: ' ← ';
-            text-decoration: none;
-            font-weight: normal;
-            color: darkgray
         }
-        .especial {
-            background-color: chartreuse;
-        }
+
+      
+        
 
        
     
